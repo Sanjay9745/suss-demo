@@ -708,8 +708,6 @@
 	        pagerCustom: '.product-details-content .slider-pager .thumb-box'
 	    });
 	}; 
-	
-
 
 	/*	=========================================================================
 	When document is Scrollig, do
@@ -746,3 +744,12 @@
 	
 
 })(window.jQuery);
+
+
+const button = document.getElementById("sidebar-side-btn");
+const filter = document.getElementById("sidebar-side");
+
+button.addEventListener("click", () => {
+	// Toggle the 'display' property between 'none' and 'block'
+	filter.style.display = filter.style.display === "none" ? "block" : "none";
+});

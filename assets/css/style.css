@@ -1380,7 +1380,7 @@ img {
 
 .mobile-menu .nav-logo {
   position: relative;
-  padding: 50px 25px 120px 25px;
+  padding: 50px 25px 50px 25px;
   text-align: left;
 }
 
@@ -9919,7 +9919,9 @@ div#mCSB_1_container {
 .main-footer .footer-top .footer-widget .widget-title h3{
 color:grey;
 }
-
+.sidebar-side-btn{
+    display:none;
+}
 @media screen and (max-width: 567px) {
   .menu-area {
     order: 10;
@@ -9932,12 +9934,32 @@ color:grey;
   }
   .main-header .menu-right-content li,
   .main-header .menu-right-content li.shop-cart,
-  .main-header .menu-right-content li.search-btn .search-toggler {
-    font-size: 18px;
+  .main-header .menu-right-content li .search-btn .search-toggler {
+    font-size: 15px;
+  }
+  .product-details .bxslider .slider-pager img{
+    width: 60%;
+  }
+  .product-details-2 .bxslider .slider-content .slider-pager li{
+    height:80px;
+    width:80px;
+  }
+  .bx-viewport{
+    height: 420px;
+  }
+  .collection-cards .category-block{
+    max-width: 150px;
+  }
+  .sidebar-side{
+    display: none;
+  }
+  .sidebar-side-btn{
+    display:block;
   }
 }
 @media screen and (max-width: 499px) {
   .main-header .outer-box .logo-box {
-    width: 20%;
+    width: 30%;
   }
 }
+

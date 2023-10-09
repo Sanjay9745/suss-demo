@@ -67,11 +67,11 @@
 }
 
 .category-block-one h5 a:hover{
-  color: rgb(3, 41, 9);
+  color:rgb(39, 42, 39);
 }
 
 .category-block-one .image-box:before{
-	background: rgb(5, 61, 13);
+	background: rgb(39, 42, 39);
 }
 
 .shop-block-one .inner-box .image-box .category.green-bg{
@@ -654,5 +654,5 @@
 }
 
 .mobile-menu .menu-backdrop{
-  background: rgba(4, 90, 17, 1);
+  background: rgba(4, 90, 17, 0);
 }
