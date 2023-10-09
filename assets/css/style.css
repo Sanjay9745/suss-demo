@@ -9922,6 +9922,12 @@ color:grey;
 .sidebar-side-btn{
     display:none;
 }
+.shop-block-one .inner-box .image-box .info-list li:last-child{
+  display: none;
+}
+.shop-block-one .inner-box:hover .image-box .info-list{
+  left: 40px;
+}
 @media screen and (max-width: 567px) {
   .menu-area {
     order: 10;
@@ -9946,6 +9952,11 @@ color:grey;
   }
   .bx-viewport{
     height: 420px;
+  }
+  .collection-cards{
+    justify-content:center ;
+    align-items: center;
+
   }
   .collection-cards .category-block{
     max-width: 150px;
